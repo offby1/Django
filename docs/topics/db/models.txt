@@ -292,6 +292,10 @@ sees you've explicitly set :attr:`Field.primary_key`, it won't add the automatic
 Each model requires exactly one field to have :attr:`primary_key=True
 <Field.primary_key>` (either explicitly declared or automatically added).
 
+.. warning::
+
+  See :ref:`Manually-specifying values of auto-incrementing primary keys<manually-specified-autoincrement-pk>` for a warning about surprising behavior with Postgres.
+
 .. _verbose-field-names:
 
 Verbose field names
